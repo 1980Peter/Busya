@@ -1,0 +1,40 @@
+body {
+    font-family: 'DynaPuff', cursive;
+    background: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: rgb(88, 88, 88);
+    margin-top: 100px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+    margin-top: 100px;
+    text-align: center;
+}
+
+button {
+    width: 300px;
+    height: 300px;
+    border: solid 2px gray;
+    border-radius: 50%;
+    background-image: url(./img/Busya1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-image: url(./img/Busya2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 500ms;
+}
